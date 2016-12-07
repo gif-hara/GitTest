@@ -21,5 +21,9 @@ namespace GitTest
         {
             return a * b;
         }
+        int Hoge(int a, int b)
+        {
+            return this.Add(a, b) + this.Sub(a, b);
+        }
     }
 }
