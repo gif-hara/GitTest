@@ -25,5 +25,9 @@ namespace GitTest
         {
             return this.Add(a, b) + this.Sub(a, b);
         }
+        int Fuga(int a, int b)
+        {
+            return this.Multi(a, b) + this.Division(a, b);
+        }
     }
 }
