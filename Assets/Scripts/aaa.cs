@@ -29,5 +29,9 @@ namespace GitTest
         {
             return this.Multi(a, b) + this.Division(a, b);
         }
+        int Nyao(int a, int b)
+        {
+            return this.Hoge(a, b) + this.Fuga(a, b);
+        }
     }
 }
