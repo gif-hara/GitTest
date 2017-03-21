@@ -37,5 +37,9 @@ namespace GitTest
         {
             return this.Fuga(a, b) + this.Nyao(a, b);
         }
+        int Cherry(int a, int b)
+        {
+            return this.Nyao(a, b) + this.Waon(a, b);
+        }
     }
 }
