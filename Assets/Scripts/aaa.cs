@@ -41,5 +41,9 @@ namespace GitTest
         {
             return this.Nyao(a, b) + this.Waon(a, b);
         }
+        int Pick(int a, int b)
+        {
+            return this.Waon(a, b) + this.Cherry(a, b);
+        }
     }
 }
